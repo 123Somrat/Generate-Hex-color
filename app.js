@@ -11,3 +11,12 @@
 window.onload = () => {
 	main();
 };
+
+
+function main (){
+  
+    // Collect all necessary reference
+
+    const root = document.getElementById("root");
+    const btn = document.getElementById("change-btn");
+    const output = document.getElementById
