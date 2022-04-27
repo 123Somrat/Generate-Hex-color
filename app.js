@@ -24,6 +24,17 @@ function main (){
     // Add Event listener
 
     btn.addEventListener("click",function(){
-        
+
     })
 }
+
+//Hex Decimel color generator function 
+
+function generateHEXcolor(){
+    const red = Math.floor(Math.random() * 255);
+	const green = Math.floor(Math.random() * 255);
+	const blue = Math.floor(Math.random() * 255);
+
+	return `#${red.toString(16)}${green.toString(16)}${blue.toString(16)}`;
+
+};
