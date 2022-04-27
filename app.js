@@ -24,7 +24,9 @@ function main (){
     // Add Event listener
 
     btn.addEventListener("click",function(){
-
+       //Generate bg color 
+       const bgcolor = generateHEXcolor();
+    
     })
 }
 
