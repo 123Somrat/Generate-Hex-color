@@ -25,7 +25,7 @@ function main (){
 
     btn.addEventListener("click",function(){
        //Generate bg color 
-       const bgcolor = generateHEXcolor();
+       const bgcolor = generateHEXcolor()
        // Change bg color 
        root.style.backgroundcolor= bgcolor;
 
